@@ -6,5 +6,8 @@ function findMatching(array, condition) {
 function fuzzyMatch(array, partialName) {
   partialName = partialName.split("");
   letterQty = partialName.length;
-  
+  let array = []
+  for (const instance of array) {
+    alert(instance);
+  }
 }
