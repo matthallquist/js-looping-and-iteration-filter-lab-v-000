@@ -2,3 +2,4 @@
 function findMatching(array, condition) {
   array.filter(instance => instance === condition);
 }
+ 
