@@ -7,6 +7,6 @@ function fuzzyMatch(array, partialName) {
   return array.filter(instance => instance.startsWith(partialName));
 }
 
-function matchName() {
-  
+function matchName(array, name) {
+    
 }
