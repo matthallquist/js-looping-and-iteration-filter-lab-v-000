@@ -5,10 +5,11 @@ function findMatching(array, condition) {
 
 function fuzzyMatch(array, partialName) {
   partialName = partialName.split("");
-  letterQty = partialName.length;
+  letterQty = partialName.length - 1;
   let newArray = []
   for (const instance of array) {
     newArray.push(instance.split(""));
   }
+  newArray.filter(instance => instance[0,])
   console.log(newArray);
 }
