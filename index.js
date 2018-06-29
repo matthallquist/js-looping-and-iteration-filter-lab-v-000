@@ -2,5 +2,5 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(array, condition) {
-  array.filter(function (instance) {alert(instance === condition);});
+  array.filter(instance => alert(instance === condition));
 }
