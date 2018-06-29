@@ -11,5 +11,7 @@ function fuzzyMatch(array, partialName) {
     newArray.push(instance.split(""));
   }
   newArray.filter(instance => instance[0, letterQty] === partialName);
-
+  for (const instance of newArray) {
+    console.log(instance[0, letterQty]);
+  }
 }
