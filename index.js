@@ -8,6 +8,6 @@ function fuzzyMatch(array, partialName) {
   letterQty = partialName.length;
   let newArray = []
   for (const instance of array) {
-    alert(instance);
+    console.log(instance);
   }
 }
