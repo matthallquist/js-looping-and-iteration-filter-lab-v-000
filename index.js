@@ -2,3 +2,7 @@
 function findMatching(array, condition) {
   return array.filter(instance => instance.toLowerCase() === condition.toLowerCase());
 }
+
+function fuzzyMatch() {
+  
+}
