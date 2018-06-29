@@ -4,5 +4,6 @@ function findMatching(array, condition) {
 }
 
 function fuzzyMatch(array, partialName) {
-  return partialName.split("");
+  partialName = partialName.split("");
+  letterQty = partialName.count;
 }
