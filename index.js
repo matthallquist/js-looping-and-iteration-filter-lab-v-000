@@ -10,4 +10,5 @@ function fuzzyMatch(array, partialName) {
   for (const instance of array) {
     newArray.push(instance.split(""));
   }
+  return newArray;
 }
