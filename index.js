@@ -8,5 +8,5 @@ function fuzzyMatch(array, partialName) {
 }
 
 function matchName(array, name) {
-    
+  return array.filter(instance => instance.name === name);
 }
