@@ -4,14 +4,5 @@ function findMatching(array, condition) {
 }
 
 function fuzzyMatch(array, partialName) {
-  partialName = partialName.split("");
-  letterQty = partialName.length - 1;
-  let newArray = []
-  for (const instance of array) {
-    newArray.push(instance.split(""));
-  }
-  newArray.filter(instance => instance[0, letterQty] === partialName);
-  for (const instance of newArray) {
-    console.log(instance[0, letterQty]);
-  }
+  return array.filter(instance => instance.startsWith(partialName));
 }
