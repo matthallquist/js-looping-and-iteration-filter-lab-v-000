@@ -4,12 +4,11 @@ function findMatching(array, condition) {
 }
 
 function fuzzyMatch(array, partialName) {
-  return array;
   partialName = partialName.split("");
   letterQty = partialName.length;
   let newArray = []
   for (const instance of array) {
     newArray.push(instance.split(""));
   }
-  return newArray;
+  console.log(newArray);
 }
